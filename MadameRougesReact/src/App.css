@@ -1,0 +1,316 @@
+#tabular {
+  color: black;
+}
+
+
+.react-tabs [role=tablist] {
+	border-bottom: 1px solid #aaa;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.react-tabs [role=tab] {
+	display: inline-block;
+	border: 1px solid transparent;
+	border-bottom: none;
+	bottom: -1px;
+	position: relative;
+	list-style: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	position: relative;
+}
+
+.react-tabs [role=tab][aria-selected=true] {
+	background: #fff;
+	border-color: #aaa;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+
+
+#recipe {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 , p, li {
+  margin: 3px;
+  font-family: 'Lato', sans-serif !important;
+}
+
+h1{
+  margin-bottom: 5px;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+.home-bg{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 15px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  color:white;
+  position: fixed;
+  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("imgs/home_background.jpg");
+}
+
+.menu-card {
+  padding-top: 15px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(to top, rgba(0,0,0,0)12%, rgba(0,0,0,0.8));
+  height: 85%;
+}
+
+.menu-list {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+li{
+  list-style-type: none;
+  margin-right:30px;
+  padding: 2px;
+}
+
+ul {
+  text-align: center;
+}
+
+#menu-period {
+  text-align: center;
+}
+
+.react-tabs [role=tablist] {
+	border-bottom: 1px solid #aaa;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.react-tabs [role=tab] {
+	display: inline-block;
+	border: 1px solid transparent;
+	border-bottom: none;
+	bottom: -1px;
+	position: relative;
+	list-style: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	position: relative;
+}
+
+.react-tabs [role=tab][aria-selected=true] {
+	background: #fff;
+	border-color: #aaa;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+
+.recipe-show-page{
+  color:white;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("imgs/food.jpg");
+  background-size: cover;
+}
+
+.recipe-show-card{
+  height: 100vh;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(to top, rgba(0,0,0,0)12%, rgba(0,0,0,0.8));
+  height: 85%;
+}
+
+.recipe-show-tab{
+  height: 300px;
+  margin: 0 auto;
+  margin-top: -10px;
+  padding: 10px;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.nav-wrapper{
+  padding-left: 20px;
+  z-index: 1;
+}
+
+#tabular li  {
+  color: white;
+  background: none;
+}
+
+.recipe-title{
+  font-size: 3em;
+}
+
+.float-left{
+  float: left;
+}
+
+.tabs-border{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: black;
+}
+
+.Recipes {
+  padding: 0 0 0 10px;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(to top, rgba(0,0,0,0)15%, rgba(0,0,0,0.8));
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+
+}
+
+.react-tabs [role=tab][aria-selected=true] a{
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+.Recipe-list {
+
+  text-transform: capitalize;
+}
+
+a {
+  color:white;
+}
+
+.remove-border {
+  border: none !important;
+}
+
+.blocky {
+  display: inline-block;
+  width: 25%;
+}
+
+.margin {
+  margin: 5px 0 5px;
+}
+
+.brand-logo {
+  margin-top: 10px;
+  font-family: 'Alex Brush', cursive;
+  font-size: 3.5em !important;
+  color: #F63F23 !important;
+}
+
+.all-recipe-show {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("imgs/dishes.jpg");
+  background-size: cover;
+}
+
+.new-user {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("imgs/new_chef.jpg");
+  background-size: cover;
+}
+
+.new-user-form {
+  height: 100vh;
+  padding: 20px;
+  margin-left: 20%;
+  width: 40%;
+  color:white;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(to top, rgba(0,0,0,0)12%, rgba(0,0,0,0.8));
+  height: 85%;
+}
+
+
+button.btn, input{
+
+  background: #F63F23;
+}
+
+button.btn:hover{
+  background: #F63F23;
+}
+
+
+.btn:focus, .btn-large:focus, .btn-floating:focus{
+    background: #F63F23;
+}
+
+
+.user-login-form {
+  height: 100vh;
+  padding: 20px;
+  margin-left: 20%;
+  width: 40%;
+  color:#fff;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  left: 10%;
+  background: linear-gradient(to top, rgba(0,0,0,0)5%, rgba(0,0,0,0.9));
+  height: 85%;
+}
+
+.btn:hover, .btn-large:hover {
+  background: #F63F23;
+}
+
+.btn, .btn-large{
+    background: #F63F23;
+}
+
+.user-show-page{
+  color:white;
+}
+
+.admin-show{
+  float:left;
+  color:white;
+}
